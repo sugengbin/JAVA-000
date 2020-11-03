@@ -32,5 +32,19 @@ Avg: 38.8ms
 99.9%   below 1044ms
 ```
 
+- args
+```shell
+-u 指定要压测的网站或是API
+
+-n 指定要压的Request数量
+
+-c 指定Concurrent Request数量
+
+-m 指定使用的HTTP Method
+
+-h 指定显示HTTP Header
+
+-q 指定显示Cookie
+```
 
 
