@@ -1,7 +1,7 @@
-package com.gengbinsu.java0.netty.week03.server;
+package com.gengbinsu.java0.netty.week03.gateway;
 
 
-import com.gengbinsu.java0.netty.week03.server.inbound.HttpInboundServer;
+import com.gengbinsu.java0.netty.week03.gateway.inbound.HttpInboundServer;
 
 public class NettyServerApplication {
     
@@ -9,7 +9,7 @@ public class NettyServerApplication {
     public final static String GATEWAY_VERSION = "1.0.0";
     
     public static void main(String[] args) {
-        String proxyServer = System.getProperty("proxyServer","http://localhost:8088");
+        String proxyServer = System.getProperty("proxyServer","http://localhost:8081,http://localhost:8082");
         String proxyPort = System.getProperty("proxyPort","8888");
         
           //  http://localhost:8888/api/hello  ==> gateway API

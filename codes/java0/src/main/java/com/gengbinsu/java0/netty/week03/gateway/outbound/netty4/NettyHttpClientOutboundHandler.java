@@ -1,4 +1,4 @@
-package com.gengbinsu.java0.netty.week03.server.outbound.netty4;
+package com.gengbinsu.java0.netty.week03.gateway.outbound.netty4;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

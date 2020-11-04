@@ -1,4 +1,4 @@
-package com.gengbinsu.java0.netty.week03.server.outbound.netty4;
+package com.gengbinsu.java0.netty.week03.gateway.outbound.netty4;
 //package io.github.kimmking.gateway.outbound;
 //
 //import io.netty.bootstrap.Bootstrap;

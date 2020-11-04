@@ -1,4 +1,4 @@
-package com.gengbinsu.java0.netty.week03.server.filter;
+package com.gengbinsu.java0.netty.week03.gateway.filter;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.FullHttpRequest;

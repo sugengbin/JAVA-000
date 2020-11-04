@@ -1,4 +1,4 @@
-package com.gengbinsu.java0.netty.week03.server.outbound.httpclient4;
+package com.gengbinsu.java0.netty.week03.gateway.outbound.httpclient4;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
